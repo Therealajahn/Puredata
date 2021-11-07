@@ -1,0 +1,8 @@
+#N canvas 425 311 396 300 12;
+#X obj 28 63 outlet;
+#X obj 28 25 smart-knobs;
+#X obj 117 64 outlet;
+#X obj 117 24 smart-syncho;
+#X obj 213 64 outlet;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;

@@ -1,0 +1,110 @@
+#N canvas -8 -8 1920 997 12;
+#X obj 230 69 key;
+#X floatatom 230 105 5 0 0 0 - - -;
+#X obj 157 655 1;
+#X obj 247 657 1;
+#X obj 155 448 select 122;
+#X obj 155 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 550 253 key;
+#X obj 427 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 520 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 610 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 702 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 792 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 879 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 969 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 245 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 337 550 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 204 504 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 294 504 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 460 504 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 554 504 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 644 504 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 824 503 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 914 503 bng 30 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 204 407 select 115;
+#X obj 294 407 select 100;
+#X obj 245 448 select 120;
+#X obj 461 406 select 103;
+#X obj 554 406 select 104;
+#X obj 644 406 select 106;
+#X obj 337 448 select 99;
+#X obj 427 448 select 118;
+#X obj 520 448 select 98;
+#X obj 610 448 select 110;
+#X obj 702 447 select 109;
+#X obj 792 448 select 44;
+#X obj 879 448 select 46;
+#X obj 969 448 select 47;
+#X obj 824 408 select 108;
+#X obj 914 408 select 59;
+#X text 165 588 Z;
+#X text 253 588 Z;
+#X text 208 588 Z;
+#X text 298 589 Z;
+#X text 341 589 Z;
+#X text 431 592 Z;
+#X text 519 592 Z;
+#X text 474 592 Z;
+#X text 564 593 Z;
+#X text 607 593 Z;
+#X text 655 595 Z;
+#X text 802 593 Z;
+#X text 708 593 Z;
+#X text 847 594 Z;
+#X text 890 594 Z;
+#X text 929 594 Z;
+#X text 972 594 Z;
+#X connect 0 0 1 0;
+#X connect 4 0 5 0;
+#X connect 6 0 4 0;
+#X connect 6 0 23 0;
+#X connect 6 0 24 0;
+#X connect 6 0 25 0;
+#X connect 6 0 26 0;
+#X connect 6 0 27 0;
+#X connect 6 0 28 0;
+#X connect 6 0 29 0;
+#X connect 6 0 30 0;
+#X connect 6 0 31 0;
+#X connect 6 0 32 0;
+#X connect 6 0 33 0;
+#X connect 6 0 34 0;
+#X connect 6 0 35 0;
+#X connect 6 0 36 0;
+#X connect 6 0 37 0;
+#X connect 6 0 38 0;
+#X connect 23 0 16 0;
+#X connect 24 0 17 0;
+#X connect 25 0 14 0;
+#X connect 26 0 18 0;
+#X connect 27 0 19 0;
+#X connect 28 0 20 0;
+#X connect 29 0 15 0;
+#X connect 30 0 7 0;
+#X connect 31 0 8 0;
+#X connect 32 0 9 0;
+#X connect 33 0 10 0;
+#X connect 34 0 11 0;
+#X connect 35 0 12 0;
+#X connect 36 0 13 0;
+#X connect 37 0 21 0;
+#X connect 38 0 22 0;
+#X coords 0 -1 1 1 85 60 1 100 100;

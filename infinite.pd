@@ -1,0 +1,14 @@
+#N canvas 622 208 436 300 12;
+#X obj 22 62 int;
+#X obj 66 62 + 1;
+#X floatatom 22 128 5 0 0 0 - - -;
+#X obj 22 12 inlet;
+#X obj 22 164 outlet;
+#X obj 99 35 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 0 1;
+#X connect 2 0 4 0;
+#X connect 3 0 0 0;
+#X connect 5 0 0 0;
